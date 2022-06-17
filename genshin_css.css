@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Portada de inicio*/
+
+.sec{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    background-image: url(https://livewallp.com/wp-content/uploads/2021/07/Kazuha-Genshin-Impact-HD.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 450px;
+    width: 700px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.portada{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 10vh 100vw 0 0;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+}
+
+/* titulo del inicio*/
+
+.titulo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.titulo_img{
+    width: 300px;
+    height: 100px;
+}
+
+.titulo_img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* sobre genshin */
+
+.container_main{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.sobre_genshin{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.genshin_img{
+    background-image: url(https://images6.alphacoders.com/111/thumb-1920-1115869.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+
+.borde1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 0 100vw 30vh 0;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+}
+
+.borde2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 100vw 30vh 0;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+/*historia*/
+
+.container_historia{
+    width: 80%;
+    max-width: 1200px;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.historia{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.historia h2{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 5%;
+}
+
+.historia_img{
+    background-image: url(https://2.bp.blogspot.com/-YSRL7xmCD2Q/XQ8eHaJ9wkI/AAAAAAAAHtA/0-bVcL3HJmQ4eCCCJY8Sq9y0tGKoVw3IwCKgBGAs/w2560-h1600-c/genshin-impact-uhdpaper.com-4K-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+
+.borde3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 30vh 100vw 0 0;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.borde4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 30vh 100vw 0 0;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+}
+
+.requisitos_titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.requisitos{
+    width: 80%;
+    max-width: 1200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    display: flex;
+}
+
+.requisitos_min{
+    width: 50%;
+    font-size: 20px;
+}
+
+.requisitos_re{
+    width: 50%;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #30475E;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 10vh 100vw 0 0;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.logo{
+    width: 30%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.sobre{
+    width: 30%;
+    height: 100%;
+    margin-top: 10%;
+    font-size: 20px;
+    margin-left: 5%;
+    color: white;
+}
+
+.contacto{
+    font-size: 20px;
+    color: white;
+    margin-top: 10%;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.contacto h3{
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.contacto a{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #233444;
+    margin-left: 5px;
+}
+
+.contacto a:hover{
+    background-color: #3f6386;
+    transition: .3s all;
+}
+
+@media (max-width: 980px) {
+    .container_main{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .sobre_genshin{
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+    }
+
+    .container_historia{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .historia{
+        font-size: 25px;
+    }
+
+    .requisitos{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .requisitos_min{
+        font-size: 25px;
+    }
+    
+    .requisitos_re{
+        font-size: 25px;
+    }
+
+    .logo{
+        width: 33%;
+        margin-left: 0%;
+    }
+    
+    
+    .sobre{
+        width: 33%;
+        margin-left: 0%;
+    }
+    
+    .contacto{
+        width: 33%;
+    }
+    
+}
+
+@media (max-width: 850px){
+    .requisitos{
+        flex-direction: column;
+    }
+
+    .requisitos_min{
+        width: 100%;
+    }
+    
+    .requisitos_re{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 100%;
+    }
+    
+    
+    .sobre{
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    
+    .contacto{
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 500px){
+    .img{
+        height: 350px;
+        width: 700px;
+    }
+
+    .sobre_genshin{
+        font-size: 15px;
+    }
+    
+    .historia{
+        font-size: 15px;
+    }
+    
+    .historia h2{
+        font-size: 60px;
+    }
+
+    .requisitos_titulo{
+        font-size: 30px;
+    }
+
+    .requisitos_min{
+        font-size: 15px;
+    }
+    
+    .requisitos_re{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px){
+    .img{
+        height: 250px;
+        width: 700px;
+    }
+
+    .titulo_img{
+        width: 220px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 300px){
+    .img{
+        height: 200px;
+        width: 600px;
+    }
+
+    .titulo_img{
+        width: 200px;
+        height: 70px;
+    }
+
+    .historia h2{
+        font-size: 40px;
+    }
+
+    .requisitos_titulo{
+        font-size: 25px;
+    }
+
+    .sobre{
+        font-size: 15px;
+    }
+
+    .contacto{
+        font-size: 15px;
+    }
+}
