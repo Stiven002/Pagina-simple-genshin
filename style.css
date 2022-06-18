@@ -275,15 +275,17 @@ header{
     }
 
     .sobre_genshin{
-        width: 100%;
+        width: 90%;
         height: 100%;
         font-size: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .container_historia{
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     .historia{
@@ -354,6 +356,7 @@ header{
         width: 100%;
         margin-top: 0%;
         margin-left: 5%;
+        margin-bottom: 5%;
     }
 }
 
